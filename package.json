@@ -1,7 +1,7 @@
 {
-  "name": "new",
+  "name": "Yoga",
   "version": "1.0.0",
-  "description": "new",
+  "description": "yoga",
   "main": "-gulpfile.js",
   "scripts": {
     "build": "gulp build",
@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Husach/new.git"
+    "url": "git+https://github.com/Husach/yoga.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Husach/new/issues"
+    "url": "https://github.com/Husach/yoga/issues"
   },
   "homepage": "https://github.com/Husach/new#readme",
   "devDependencies": {
@@ -30,7 +30,7 @@
     "gulp-plumber": "1.1.0",
     "gulp-postcss": "6.4.0",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "3.1.0",
+    "gulp-sass": "^3.1.0",
     "gulp-svgmin": "^1.2.4",
     "gulp-svgstore": "^6.1.0",
     "run-sequence": "^1.2.2"
