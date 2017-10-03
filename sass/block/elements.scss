@@ -1,0 +1,17 @@
+.elements {
+	background: url(../img/elements_bg.jpg) no-repeat center center;
+	height: 800px;
+}
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+.elements__block {
+	display: inline-block;
+	width: 270px;
+	height: 250px;
+	margin-right: 30px;
+}
+.elements__title {
+	text-transform: uppercase;
+}
