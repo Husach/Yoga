@@ -389,6 +389,9 @@ template {
 [hidden] {
   display: none; }
 
+.gallery__img {
+  display: inline-block; }
+
 .list-item {
   display: inline-block; }
 
@@ -410,6 +413,17 @@ template {
 .program {
   width: 1200px;
   margin: 0 auto; }
+
+.program__block {
+  display: inline-block;
+  width: 570px;
+  height: 300px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 3.5px 3.5px 20px rgba(0, 0, 0, 0.1); }
+
+.program__img {
+  float: left; }
 
 .reservation {
   background: url(../img/about_bg.jpg) no-repeat center center;
