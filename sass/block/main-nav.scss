@@ -1,7 +1,18 @@
-.list-item {
-	display: inline-block;
+.list {
+	margin: 0;
 }
-.list-link {
+.list__item {
+	display: inline-block;
+	margin-right: 30px;
+}
+.list__link {
+	font-family: 'OpenSansSemibold';
+	font-size: 14px;
 	text-decoration: none;
 	list-style: none;
+	color: #555;
+	line-height: 100px;
+}
+.list__link:hover {
+	color: #5363db;
 }

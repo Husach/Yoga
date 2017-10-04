@@ -9,6 +9,10 @@
 	background-color: white;
 	border-radius: 8px;
 	box-shadow: 3.5px 3.5px 20px rgba(0, 0, 0, 0.1);
+	margin-bottom: 25px;
+}
+.program__block:nth-child(even) {
+	margin-right: 30px;
 }
 .program__img {
 	float: left;

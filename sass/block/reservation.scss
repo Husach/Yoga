@@ -1,6 +1,8 @@
 .reservation {
 	background: url(../img/about_bg.jpg) no-repeat center center;
 	height: 600px;
+
+	border-top: 1px solid white;
 }
 .container {
 	width: 1200px;
@@ -11,5 +13,21 @@
 	height: 391px;
 	background-color: white;
 	border-radius: 20px;
-	box-shadow: 5.7px 5.7px 10px rgba(0, 0, 0, 0.15);
+	box-shadow: 5.7px 5.7px 10px rgba(0, 0, 0, 0.15);	
+	margin: 100px 110px 0 255px;
+	float: left;
+}
+.reservation__text__info {
+	padding-top: 175px;
+}
+.reservation__title {
+	font-size: 48px;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 0;
+}
+.reservation__text {
+	font-family: 'FreestyleScript';
+	font-size: 40px;
+	color: #fff;
 }

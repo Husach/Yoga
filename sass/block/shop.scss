@@ -1,0 +1,16 @@
+.shop {
+	background: url(../img/price_bg.png) no-repeat right bottom;
+	min-height: 1150px;
+}
+.shop__block {
+	display: inline-block;
+	width: 370px;
+	height: 493px;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 6.4px 6.4px 50px rgba(0, 0, 0, 0.1);
+	margin-right: 35px;
+}
+.shop__block:last-child {
+	margin-right: 0;
+}

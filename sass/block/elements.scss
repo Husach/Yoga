@@ -1,11 +1,9 @@
 .elements {
-	background: url(../img/elements_bg.jpg) no-repeat center center;
+	background: url("../img/elements_bg.jpg") no-repeat center center;
 	height: 800px;
 	text-align: center;
-}
-.container {
-	width: 1200px;
-	margin: 0 auto;
+	font-size: 0;
+	color: #fff;
 }
 .elements__block {
 	display: inline-block;
@@ -14,9 +12,13 @@
 	margin-right: 30px;
 }
 .elements__title {
+	font-family: 'OpenSansBold';
+	font-weight: bold;
+	font-size: 18px;
 	text-transform: uppercase;
 }
 .elements__text {
+	font-size: 16px;
 }
 .elements__img {
 	width: 70px;
@@ -32,4 +34,16 @@
 }
 .elements__img-03 {
 	background-position: -20px -130px;
+}
+.elements__img-05 {
+	background-position: -240px -20px;
+}
+.elements__img-06 {
+	background-position: -240px -130px;
+}
+.elements__img-07 {
+	background-position: -20px -240px;
+}
+.elements__img-08 {
+	background-position: -130px -240px;
 }

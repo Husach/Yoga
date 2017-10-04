@@ -14,27 +14,31 @@
   	<nav class="main-nav">
   		<ul class="list">
   			<li class="list__item">
-  				<a href="#About" class="list__link">About us</a>
+  				<a href="#about" class="list__link">About us</a>
   			</li>
   			<li class="list__item">
-  				<a href="#Reservation" class="list__link">Reservation</a>
+  				<a href="#reservation" class="list__link">Reservation</a>
   			</li>
   			<li class="list__item">
-  				<a href="#Gallery" class="list__link">Gallery</a>
+  				<a href="#gallery" class="list__link">Gallery</a>
   			</li>
   		</ul>
   	</nav>
 
+		<div class="header-logo">
+			<span class="header-logo__text">Yoga</span>
+		</div>
+
   	<nav class="main-nav">
   		<ul class="list">
   			<li class="list__item">
-  				<a href="#Blog" class="list__link">Blog</a>
+  				<a href="#blog" class="list__link">Blog</a>
   			</li>
   			<li class="list__item">
-  				<a href="#Elements" class="list__link">Elements</a>
+  				<a href="#elements" class="list__link">Elements</a>
   			</li>
   			<li class="list__item">
-  				<a href="#Shop" class="list__link">Shop</a>
+  				<a href="#shop" class="list__link">Shop</a>
   			</li>
   		</ul>
   	</nav>
@@ -42,14 +46,20 @@
   </header>
 
   <main class="page-main">
-		<div class="reservation">
+		<div class="reservation" id="reservation">
 			<div class="container">
 				<form class="reg-form">
+					<h4 class="reg-form__title">Trial it</h4>
+					<input type="text" name="name">
+					<input type="text" name="phone">
+					<input type="class" name="class">
+					<button class="btn reg-form__btn" value="Try it">Try it</button>
 				</form>
 				
 				<div class="reservation__text__info">
-					<h2 class="reservation__title">Just balance your mind & body</h2>
-					<p class="reservation__text">Create the healthy living for yourself</p>
+					<h2 class="reservation__title">Just balance</h2>
+					<h2 class="reservation__title">your mind &#38; body</h2>
+					<p class="reservation__text">Create the healthy living<br> for yourself</p>
 				</div>
 			</div>
 		</div>
@@ -86,7 +96,7 @@
 			</section>
 		</div>
 
-		<div class="gallery">
+		<div class="gallery" id="gallery">
 			<img src="img/gallery_01.jpg" width="479" height="350" alt="gallery" class="gallery__img">
 			<img src="img/gallery_02.jpg" width="481" height="350" alt="gallery" class="gallery__img">
 			<img src="img/gallery_03.jpg" width="480" height="350" alt="gallery" class="gallery__img">
@@ -97,14 +107,14 @@
 			<img src="img/gallery_08.jpg" width="480" height="350" alt="gallery" class="gallery__img">
 		</div>
 
-		<div class="about">
+		<div class="about" id="about">
 			<section class="about__info">
 				<h4 class="about__title">About us</h4>
 				<p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor it in lorei voluptate velit esse cillum dolore eu fugiat nulla pariatur lorem ispum loting sokui.</p>
 			</section>
 		</div>
 
-		<div class="elements">
+		<div class="elements" id="elements">
 			<div class="container">
 				<section class="elements__block">
 					<div class="elements__img elements__img-01"></div>
@@ -149,9 +159,64 @@
 			</div>
 		</div>
 
+		<div class="shop" id="shop">
+			<div class="container">
+				<div class="shop__block">
+					<div class="shop__block-top">
+						<p class="shop__price">$ <span class="shop__price-cost">49</span><sub>/month</sub></p>
+					</div>
+					<div class="shop__block-bottom">
+						<p class="shop__date">Entry date</p>
+						<p class="shop__time">Entry time</p>
+						<p class="shop__nutrition">Nutrition advicer</p>
+						<button class="btn btn__shop" title="buy now"></button>
+					</div>
+				</div>
+				<div class="shop__block">
+					<div class="shop__block-top">
+						<p class="shop__price">$ <span class="shop__price-cost">69</span><sub>/month</sub></p>
+					</div>
+					<div class="shop__block-bottom">
+						<p class="shop__date">Entry date</p>
+						<p class="shop__time">Entry time</p>
+						<p class="shop__nutrition">Nutrition advicer</p>
+						<button class="btn btn__shop" title="buy now"></button>
+					</div>
+				</div>
+				<div class="shop__block">
+					<div class="shop__block-top">
+						<p class="shop__price">$ <span class="shop__price-cost">99</span><sub>/month</sub></p>
+					</div>
+					<div class="shop__block-bottom">
+						<p class="shop__date">Entry date</p>
+						<p class="shop__time">Entry time</p>
+						<p class="shop__nutrition">Nutrition advicer</p>
+						<button class="btn btn__shop" title="buy now"></button>
+					</div>
+				</div>
+			</div>
+		</div>
+
   </main>
 
-  <footer>
+  <footer class="page-footer">
+		<div class="footer-top">
+			<div class="container">
+				<div class="footer-top__column">
+					<h5 class="footer-top__title">About</h5>
+					<p class="footer-top__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.</p>
+				</div>
+				<div class="footer-top__column">
+					<h5 class="footer-top__title">Contact us</h5>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+				<p class="footer-bottom__text">Copyright &#169; 2016-2017 Yoga classes</p>
+		</div>
   </footer>
 
 </body>

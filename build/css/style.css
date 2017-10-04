@@ -394,13 +394,11 @@ template {
   margin: 0 auto; }
 
 .elements {
-  background: url(../img/elements_bg.jpg) no-repeat center center;
+  background: url("../img/elements_bg.jpg") no-repeat center center;
   height: 800px;
-  text-align: center; }
-
-.container {
-  width: 1200px;
-  margin: 0 auto; }
+  text-align: center;
+  font-size: 0;
+  color: #fff; }
 
 .elements__block {
   display: inline-block;
@@ -409,7 +407,13 @@ template {
   margin-right: 30px; }
 
 .elements__title {
+  font-family: 'OpenSansBold';
+  font-weight: bold;
+  font-size: 18px;
   text-transform: uppercase; }
+
+.elements__text {
+  font-size: 16px; }
 
 .elements__img {
   width: 70px;
@@ -426,15 +430,55 @@ template {
 .elements__img-03 {
   background-position: -20px -130px; }
 
+.elements__img-05 {
+  background-position: -240px -20px; }
+
+.elements__img-06 {
+  background-position: -240px -130px; }
+
+.elements__img-07 {
+  background-position: -20px -240px; }
+
+.elements__img-08 {
+  background-position: -130px -240px; }
+
+.gallery {
+  font-size: 0; }
+
 .gallery__img {
   display: inline-block; }
 
-.list-item {
-  display: inline-block; }
+.list {
+  margin: 0; }
 
-.list-link {
+.list__item {
+  display: inline-block;
+  margin-right: 30px; }
+
+.list__link {
+  font-family: 'OpenSansSemibold';
+  font-size: 14px;
   text-decoration: none;
-  list-style: none; }
+  list-style: none;
+  color: #555;
+  line-height: 100px; }
+
+.list__link:hover {
+  color: #5363db; }
+
+.footer-top {
+  height: 450px;
+  background-color: #5b6ceb; }
+
+.footer-bottom {
+  height: 100px;
+  background-color: #5363d8; }
+
+.footer-bottom__text {
+  color: #b7bffc;
+  line-height: 100px;
+  margin: 0 auto;
+  text-align: center; }
 
 .page-header {
   display: -moz-flex;
@@ -447,6 +491,23 @@ template {
   width: 1200px;
   margin: 0 auto; }
 
+.header-logo__text {
+  display: block;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #5363db;
+  padding-top: 65px; }
+
+.header-logo__text:before {
+  content: '';
+  position: absolute;
+  background: url("../img/logo.png") no-repeat center center;
+  width: 67px;
+  height: 42px;
+  top: 20px;
+  left: 50%;
+  margin-left: -5px; }
+
 .program {
   width: 1200px;
   margin: 0 auto; }
@@ -457,14 +518,19 @@ template {
   height: 300px;
   background-color: white;
   border-radius: 8px;
-  box-shadow: 3.5px 3.5px 20px rgba(0, 0, 0, 0.1); }
+  box-shadow: 3.5px 3.5px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 25px; }
+
+.program__block:nth-child(even) {
+  margin-right: 30px; }
 
 .program__img {
   float: left; }
 
 .reservation {
   background: url(../img/about_bg.jpg) no-repeat center center;
-  height: 600px; }
+  height: 600px;
+  border-top: 1px solid white; }
 
 .container {
   width: 1200px;
@@ -475,28 +541,81 @@ template {
   height: 391px;
   background-color: white;
   border-radius: 20px;
-  box-shadow: 5.7px 5.7px 10px rgba(0, 0, 0, 0.15); }
+  box-shadow: 5.7px 5.7px 10px rgba(0, 0, 0, 0.15);
+  margin: 100px 110px 0 255px;
+  float: left; }
+
+.reservation__text__info {
+  padding-top: 175px; }
+
+.reservation__title {
+  font-size: 48px;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0; }
+
+.reservation__text {
+  font-family: 'FreestyleScript';
+  font-size: 40px;
+  color: #fff; }
+
+.shop {
+  background: url(../img/price_bg.png) no-repeat right bottom;
+  min-height: 1150px; }
+
+.shop__block {
+  display: inline-block;
+  width: 370px;
+  height: 493px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 6.4px 6.4px 50px rgba(0, 0, 0, 0.1);
+  margin-right: 35px; }
+
+.shop__block:last-child {
+  margin-right: 0; }
 
 .btn {
   display: block;
   font-size: 16px;
   line-height: 16px;
-  color: #444;
-  text-transform: uppercase;
+  color: #fff;
   text-decoration: none;
-  border: 2px solid #444;
-  width: 100%;
-  padding: 17px 0;
-  text-align: center; }
+  text-align: center;
+  width: 170px;
+  height: 50px;
+  background-color: #5b6ceb;
+  border-radius: 8px;
+  box-shadow: 2.1px 2.1px 5px rgba(0, 0, 0, 0.15); }
 
 @font-face {
   font-family: "OpenSans";
-  src: url("../fonts/opensans.woff2") format("woff2"), url("../fonts/opensans.woff") format("woff");
+  src: url("../fonts/OpenSans.woff2") format("woff2"), url("../fonts/OpenSans.woff") format("woff");
   font-style: normal;
   font-weight: normal; }
 
 @font-face {
   font-family: "OpenSansBold";
-  src: url("../fonts/opensansbold.woff2") format("woff2"), url("../fonts/opensansbold.woff") format("woff");
+  src: url("../fonts/OpenSansBold.woff2") format("woff2"), url("../fonts/OpenSansBold.woff") format("woff");
   font-style: normal;
   font-weight: bold; }
+
+@font-face {
+  font-family: "OpenSansSemibold";
+  src: url("../fonts/OpenSansSemibold.woff2") format("woff2"), url("../fonts/OpenSansSemibold.woff") format("woff");
+  font-style: normal;
+  font-weight: 600; }
+
+@font-face {
+  font-family: "FreestyleScript";
+  src: url("../fonts/FreestyleScript.woff") format("woff");
+  font-style: normal;
+  font-weight: 600; }
+
+body {
+  font-family: 'OpenSans', Arial;
+  font-size: 16px; }
+
+.container {
+  width: 1200px;
+  margin: 0 auto; }
