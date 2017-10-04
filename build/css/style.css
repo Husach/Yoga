@@ -395,7 +395,8 @@ template {
 
 .elements {
   background: url(../img/elements_bg.jpg) no-repeat center center;
-  height: 800px; }
+  height: 800px;
+  text-align: center; }
 
 .container {
   width: 1200px;
@@ -409,6 +410,21 @@ template {
 
 .elements__title {
   text-transform: uppercase; }
+
+.elements__img {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  background: url("../img/sprite.png") no-repeat center; }
+
+.elements__img-01 {
+  background-position: -20px -20px; }
+
+.elements__img-02 {
+  background-position: -130px -20px; }
+
+.elements__img-03 {
+  background-position: -20px -130px; }
 
 .gallery__img {
   display: inline-block; }
