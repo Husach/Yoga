@@ -5,20 +5,29 @@
 	font-size: 0;
 	color: #fff;
 }
-.elements__block {
+.elements-block {
 	display: inline-block;
 	width: 270px;
 	height: 250px;
 	margin-right: 30px;
 }
+.elements-block:first-child {
+	padding-top: 125px;
+}
+.elements-block:nth-child(5) {
+	padding-top: 60px;
+}
+.elemen
 .elements__title {
 	font-family: 'OpenSansBold';
 	font-weight: bold;
 	font-size: 18px;
+	line-height: 27px;
 	text-transform: uppercase;
 }
 .elements__text {
 	font-size: 16px;
+	line-height: 27px;
 }
 .elements__img {
 	width: 70px;

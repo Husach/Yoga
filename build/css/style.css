@@ -391,7 +391,24 @@ template {
 
 .about {
   width: 1200px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 150px 0 125px; }
+
+.about-info {
+  float: left;
+  width: 470px;
+  margin-right: 30px; }
+
+.about-info__title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #5b6ceb;
+  text-transform: uppercase; }
+
+.about-info__text {
+  font-size: 14px;
+  line-height: 22px;
+  color: #555; }
 
 .elements {
   background: url("../img/elements_bg.jpg") no-repeat center center;
@@ -400,20 +417,29 @@ template {
   font-size: 0;
   color: #fff; }
 
-.elements__block {
+.elements-block {
   display: inline-block;
   width: 270px;
   height: 250px;
   margin-right: 30px; }
 
+.elements-block:first-child {
+  padding-top: 125px; }
+
+.elements-block:nth-child(5) {
+  padding-top: 60px; }
+
+.elemen
 .elements__title {
   font-family: 'OpenSansBold';
   font-weight: bold;
   font-size: 18px;
+  line-height: 27px;
   text-transform: uppercase; }
 
 .elements__text {
-  font-size: 16px; }
+  font-size: 16px;
+  line-height: 27px; }
 
 .elements__img {
   width: 70px;
@@ -445,7 +471,7 @@ template {
 .gallery {
   font-size: 0; }
 
-.gallery__img {
+.gallery-img {
   display: inline-block; }
 
 .list {
@@ -473,6 +499,9 @@ template {
 .footer-bottom {
   height: 100px;
   background-color: #5363d8; }
+
+.footer-top__title {
+  margin: 0; }
 
 .footer-bottom__text {
   color: #b7bffc;
@@ -512,7 +541,7 @@ template {
   width: 1200px;
   margin: 0 auto; }
 
-.program__block {
+.program-block {
   display: inline-block;
   width: 570px;
   height: 300px;
@@ -521,11 +550,44 @@ template {
   box-shadow: 3.5px 3.5px 20px rgba(0, 0, 0, 0.1);
   margin-bottom: 25px; }
 
-.program__block:nth-child(even) {
+.program-block:nth-child(even) {
   margin-right: 30px; }
 
+.program-block:last-child {
+  margin-bottom: 125px; }
+
 .program__img {
-  float: left; }
+  float: left;
+  margin-right: 30px; }
+
+.program__title {
+  color: #5b6ceb;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 125px;
+  margin: 0; }
+
+.program__text {
+  font-family: 'FreestyleScript';
+  font-size: 40px;
+  text-align: center;
+  padding: 25px 0 80px;
+  margin: 0; }
+
+.program-block__title {
+  font-size: 20px;
+  color: #777;
+  text-transform: uppercase; }
+
+.program-block__text {
+  font-size: 14px;
+  color: #555;
+  padding-right: 47px; }
+
+.program-block__footer {
+  font-size: 14px;
+  color: #999; }
 
 .reservation {
   background: url(../img/about_bg.jpg) no-repeat center center;
@@ -563,17 +625,42 @@ template {
   background: url(../img/price_bg.png) no-repeat right bottom;
   min-height: 1150px; }
 
-.shop__block {
+.shop-block {
   display: inline-block;
   width: 370px;
   height: 493px;
   background-color: white;
   border-radius: 10px;
   box-shadow: 6.4px 6.4px 50px rgba(0, 0, 0, 0.1);
-  margin-right: 35px; }
+  margin-right: 35px;
+  margin-top: 100px; }
 
-.shop__block:last-child {
+.shop-block:last-child {
   margin-right: 0; }
+
+.shop-block__top {
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 150px;
+  background: #5b6ceb;
+  border-radius: 10px 10px 0 0; }
+
+.shop__price {
+  margin: auto;
+  font-size: 32px;
+  font-weight: bold;
+  color: #fff; }
+
+.shop__price-cost {
+  font-size: 68px;
+  font-weight: bold; }
+
+.shop__price-term {
+  font-size: 18px;
+  text-transform: uppercase; }
 
 .btn {
   display: block;
