@@ -1,0 +1,30 @@
+.reg-form {
+	float: left;
+	width: 232px;
+	background-color: white;
+	border-radius: 20px;
+	box-shadow: 5.7px 5.7px 10px rgba(0, 0, 0, 0.15);	
+	margin: 85px 110px 0 255px;
+	padding: 35px 30px;
+}
+.reg-form__title {
+	font-size: 24px;
+	color: #5363db;
+	margin: 0;
+	margin-bottom: 30px;
+	padding-left: 10px;
+}
+.reg-form input[type="text"] {
+	width: 220px;
+	height: 50px;
+	background-color: #f2f2f2;
+	border-radius: 8px;
+	margin-bottom: 20px;
+	outline: 0;
+	border: 0;
+	padding-left: 10px;
+}
+.reg-form__btn {
+	border-radius: 8px;
+	margin-left: 65px;
+}

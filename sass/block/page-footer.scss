@@ -1,18 +1,36 @@
 .footer-top {
-	height: 450px;
+	height: 350px;
 	background-color: #5b6ceb;
+	padding-top: 100px;
+	color: #fff;
+}
+.footer-top__column {
+	width: 600px;
+	float: left;
+}
+.footer-top__title {
+	font-size: 18px;
+	line-height: 22px;
+	text-transform: uppercase;
+	margin: 0;
+}
+.footer-top__text {
+	font-size: 14px;
+	line-height: 22px;
+	padding-right: 135px;
 }
 .footer-bottom {
 	height: 100px;
+
 	background-color: #5363d8;
 }
-.footer-top__title {
-	margin: 0;
-}
-
 .footer-bottom__text {
 	color: #b7bffc;
 	line-height: 100px;
 	margin: 0 auto;
+	
 	text-align: center;
 }
+.footer-social-fb {
+  background-position: -51px -10px;
+}  
