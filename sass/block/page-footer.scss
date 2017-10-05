@@ -10,27 +10,86 @@
 }
 .footer-top__title {
 	font-size: 18px;
+
 	line-height: 22px;
 	text-transform: uppercase;
 	margin: 0;
+	padding-bottom: 60px;
 }
 .footer-top__text {
 	font-size: 14px;
 	line-height: 22px;
 	padding-right: 135px;
+	margin: 0;
+}
+.footer-top__social {
+	padding-top: 70px;
+}
+.social-btn {
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+
+	margin: 0 5px;
+	background: url("../img/sprite-icons.png") no-repeat center;
+	font-size: 0;
+	vertical-align: top;
+	text-decoration: none;
+}
+.footer-social-print {
+  background-position: -127px -51px;
+}  
+.footer-social-twit {
+  background-position: -10px -92px;
+}  
+.footer-social-fb {
+  background-position: -47px -10px;
+}  
+.footer-social-googp {
+  background-position: -84px -10px;
+}  
+.footer-social-inst {
+  background-position: -10px -51px;
+}  
+.table-row {
+	position: relative;
+}
+.table-cell {
+	position: relative;
+	font-size: 14px;
+	line-height: 22px;
+	color: #fff;
+	vertical-align: top;
+	padding: 0 110px 30px 35px;
+}
+.table-cell:after {
+	content:'';
+	position: absolute;
+	top: 5px;
+	left: 0;
+	width: 25px;
+	height: 25px;
+	background: url("../img/sprite-icons.png") no-repeat center;
+}
+.cell-place:after {
+	background-position: -92px -51px;
+}
+.cell-email:after {
+	background-position: -10px -10px;
+}
+.cell-phone:after {
+	background-position: -51px -51px;
+}
+.cell-planet:after {
+	background-position: -123px -10px;
 }
 .footer-bottom {
 	height: 100px;
-
 	background-color: #5363d8;
 }
 .footer-bottom__text {
 	color: #b7bffc;
 	line-height: 100px;
 	margin: 0 auto;
-	
 	text-align: center;
 }
-.footer-social-fb {
-  background-position: -51px -10px;
-}  

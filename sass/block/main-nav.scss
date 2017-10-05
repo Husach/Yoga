@@ -12,7 +12,18 @@
 	list-style: none;
 	color: #555;
 	line-height: 100px;
+	position: relative;
 }
 .list__link:hover {
 	color: #5363db;
+}
+.list__link:hover:after {
+	content:'';
+	
+	position: absolute;
+	bottom: -5px;
+	left: 25%;
+	width: 50%;
+	height: 1px;
+	background: #5363db;
 }
