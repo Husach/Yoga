@@ -1,5 +1,6 @@
 _psd/
 _jpg/
+img/
 node_modules/
 .DS_Store
 Thumbs.db
