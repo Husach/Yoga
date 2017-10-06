@@ -1,7 +1,10 @@
 _psd/
 _jpg/
+fonts/
 img/
+js/
 node_modules/
+index.html
 .DS_Store
 Thumbs.db
 *.sublime*
